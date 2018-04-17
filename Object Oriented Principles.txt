@@ -1,0 +1,13 @@
+﻿Object Oriented Principles.
+
+
+Encapsulation: In object oriented programming encapsulation is a way in which code and data can be contained and can only be accessed or modified in a controlled way. Objects support this principle as they are a container for code and data. The access to this data can be controlled by the use of access modifiers such as ‘private’, ‘public’ or ‘protected’. These control if a variable or method can be accessed from outside of the class or only inside of it. This is useful as it means that important data cannot be modified or accessed from outside the class if desired and members only relevant to that particular class can be kept separate from the rest of the program, simplify the use of the object.
+
+
+Inheritance: Is the reuse of code from one class to another. This is done in java through extending the properties of one class (called the ‘super’ or ‘parent’) to another (‘sub’ or ‘child’). In this way the child class can access all of the non-private members of the parent class. This produces a hierarchical structure with the higher classes having generic methods and properties and lower classes having members specific to only that class. This prevents having to continuously redefine the properties of classes with similar features. An example of this is the ‘object’ class in java, since all classes implicitly extend this class they inherit its methods. This means that all objects can call methods such as toString(), equals() and getClass() without having to define them in their own classes.
+
+
+Polymorphism: Is where one interface can perform different actions based on the situation. In OOP polymorphism is achieved by having one interface which can perform multiple methods. In java this is achieved through the overloading and overriding of methods. Overriding always the user to replace existing methods which have been inherited from the parent class. Overloading is where the same method is defined multiple times but with different parameter types, number of parameters or a combination of both. This means that different methods are accessed based off of the parameters used whilst keeping the same method name throughout.
+
+
+Abstraction: Is when complexity is hidden from the user allowing them to use methods without having to know how that function works. An example of this would be using an external package to send emails, a user would be able to send an email without having to worry about or even think about the smtp protocol and how that message is sent. This is extremely useful as it allows users to focus on the parts of the program which are important to them and not have to spend time to fully understand and implement more fundamental methods.
